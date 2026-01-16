@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>LUMINA GALLERY — Частная картинная галерея</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Montserrat:wght@300;400&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header class="header">
+    <h1 class="logo">LUMINA GALLERY</h1>
+    <nav class="nav">
+      <a href="#exhibitions">Выставки</a>
+      <a href="#artists">Художники</a>
+      <a href="#contact">Контакты</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="hero-content">
+        <h2>Искусство, которое дышит тишиной</h2>
+        <p>Серо-розовые оттенки, пустота как композиция, каждая картина — момент замедленного времени.</p>
+      </div>
+    </section>
+
+    <section class="exhibitions" id="exhibitions">
+      <h3>Текущая выставка</h3>
+      <div class="gallery">
+        <div class="artwork" data-delay="0.1">
+          <img src="https://source.unsplash.com/random/600x800/?monochrome,painting,gray,pink" alt="Картина 1: Тишина после дождя">
+          <div class="overlay">
+            <h4>Тишина после дождя</h4>
+            <p>Анна Левина, 2023</p>
+          </div>
+        </div>
+        <div class="artwork" data-delay="0.2">
+          <img src="https://source.unsplash.com/random/600x800/?abstract,gray,pink,texture" alt="Картина 2: Отголоски">
+          <div class="overlay">
+            <h4>Отголоски</h4>
+            <p>Михаил Орлов, 2024</p>
+          </div>
+        </div>
+        <div class="artwork" data-delay="0.3">
+          <img src="https://source.unsplash.com/random/600x800/?minimalist,painting,soft,pink" alt="Картина 3: Пустой стул">
+          <div class="overlay">
+            <h4>Пустой стул</h4>
+            <p>Елена Воронина, 2023</p>
+          </div>
+        </div>
+        <div class="artwork" data-delay="0.4">
+          <img src="https://source.unsplash.com/random/600x800/?grayscale,pink,emotion" alt="Картина 4: Вечер в библиотеке">
+          <div class="overlay">
+            <h4>Вечер в библиотеке</h4>
+            <p>Дмитрий Соколов, 2024</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="artists" id="artists">
+      <h3>Художники</h3>
+      <div class="artists-grid">
+        <div class="artist">
+          <h4>Анна Левина</h4>
+          <p>Работы в технике смешанной акварели и гипса. Фокус на эмоциональной пустоте.</p>
+        </div>
+        <div class="artist">
+          <h4>Михаил Орлов</h4>
+          <p>Эксперименты с текстурой серого и розового. Скульптурный подход к полотну.</p>
+        </div>
+        <div class="artist">
+          <h4>Елена Воронина</h4>
+          <p>Минимализм как медитация. Каждая линия — дыхание.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="contact" id="contact">
+      <h3>Посетить галерею</h3>
+      <p>Адрес: ул. Тишины, 17, Москва</p>
+      <p>Часы работы: среда–воскресенье, 12:00–19:00</p>
+      <p>По предварительной записи: <a href="mailto:info@luminagallery.com">info@luminagallery.com</a></p>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2026 LUMINA GALLERY. Все права защищены. Искусство — не товар. Оно — опыт.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
